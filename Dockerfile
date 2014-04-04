@@ -12,8 +12,8 @@ env   PHP_BUILD_VERSION 0.5
 run    git clone git://github.com/wpdevtool/php-build /opt/php2build --depth 1
 run    /opt/php2build/install.sh
 run    php-build -i development 5.3.28 /opt/php/5.3
-run    php-build -i development 5.4.26 /opt/php/5.4
-run    php-build -i development 5.5.10 /opt/php/5.5
+run    php-build -i development 5.4.27 /opt/php/5.4
+run    php-build -i development 5.5.11 /opt/php/5.5
 run    php-build -i development 5.6snapshot /opt/php/5.6
 run    rm -rf /tmp/php-build/
 run    wget https://godist.herokuapp.com/projects/ddollar/forego/releases/current/linux-amd64/forego -O /usr/bin/forego; chmod +x  /usr/bin/forego
